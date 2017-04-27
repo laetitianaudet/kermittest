@@ -7,8 +7,8 @@ public class TodoStorageInMemory extends TodoStorage{
 	private static JSONArray TODOS = new JSONArray();
 	
 	/**
-	 * Met a jour la liste des t‚ches
-	 * @param todos La liste des t‚ches sous la formes d'un tableau JSON serialisÈ 
+	 * Met a jour la liste des t√¢ches
+	 * @param todos La liste des t√¢ches sous la formes d'un tableau JSON serialis√© 
 	 */
 	public void doPut(JSONArray todos) {
 		TODOS = todos;
